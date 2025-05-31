@@ -23,7 +23,7 @@
     scene.add(light);
 
     const loader = new THREE.GLTFLoader();
-    loader.load('bitores_mendez.glb', function(gltf) {
+    loader.load('https://farshaddkh33.github.io/quarkx-model/bitores_mendez.glb', function(gltf) {
       scene.add(gltf.scene);
       gltf.scene.position.set(0, 0, 0);
     }, undefined, function(error) {
